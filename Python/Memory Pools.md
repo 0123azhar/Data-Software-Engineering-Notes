@@ -1,0 +1,2 @@
+- **Memory Pools**: Python maintains pools of memory for small objects (less than 256 bytes), especially for frequently created and destroyed objects. These pools helps to reduce fragmentation and improve allocation efficiency.
+- **PyMalloc**: Python’s specialized memory allocator, `PyMalloc`, is optimized for managing small objects.

@@ -1,0 +1,4 @@
+.index
+len()
+slicing
+sorted

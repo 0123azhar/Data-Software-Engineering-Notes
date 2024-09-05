@@ -1,0 +1,2 @@
+- **Reference Count**: Each object in Python has an associated ==reference count== (metadata), which tracks the number of references to that object. When the reference count drops to zero, the memory occupied by the object is deallocated.
+- **[[Garbage Collection]]**: Python uses garbage collection to handle cyclic references that reference counting cannot manage.

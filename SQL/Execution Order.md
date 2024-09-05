@@ -1,0 +1,1 @@
+from, joins, where, group by, having, select, distinct, order by, limit/offset.

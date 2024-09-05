@@ -1,0 +1,3 @@
+   - **Generational Garbage Collection**: Python uses a generational garbage collection system that categorizes objects by their lifespan and performs collection more frequently on short-lived objects.
+   - Python’s garbage collector divides objects into three generations based on their age. New objects start in the first generation, and if they survive garbage collection, they are promoted to older generations. This strategy reduces the ==frequency of collection== for long-lived objects.
+   - **Cyclic Garbage Collection**: The collector identifies and reclaims memory from objects that are part of a cycle but are no longer reachable from the program’s root.
